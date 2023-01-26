@@ -16,6 +16,8 @@ $ npm install --location=global ts-node
 $ npm install
 ```
 
+- Rename config.example.ts to config.ts
+
 <p>To run the script, run the command below.<p>
 
 ```
