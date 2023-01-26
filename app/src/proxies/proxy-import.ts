@@ -1,8 +1,8 @@
 import fs from 'fs';
 import Axios, { AxiosProxyConfig, AxiosResponse } from 'axios-https-proxy-fix';
 import path from 'path';
-import { performanceConfig } from '../../utils/request.performance-config';
-import { PROXY_CONFIG } from '../../config';
+import { performanceConfig } from '../utils/request.performance-config';
+import { PROXY_CONFIG } from '../config';
 
 export class ProxyImport {
 	static readonly pathToProxy = path.join(
