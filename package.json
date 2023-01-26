@@ -15,6 +15,7 @@
 	"scripts": {
 		"build": "rm -rf dist && tsc",
 		"start": "ts-node app/src/index.ts",
+		"dev": "nodemon app/src/index.ts",
 		"test": "jest --verbose --coverage",
 		"test:watch": "jest --verbose --watch",
 		"watch": "tsc index.ts --watch --lib 'es2015, es2016, dom'"
